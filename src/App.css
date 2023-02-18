@@ -1,0 +1,233 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*  Cart Page CSS    */
+
+.cart-wrapper {
+  width: 600px;
+  height: 200px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+}
+.item {
+  float: left;
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+.btn-wrapper button {
+  /* background-color: red; */
+  border: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #333;
+  box-shadow: #000 0px 1px 5px;
+}
+
+.img-wrapper img {
+width: 100px;
+margin-left: -10px;
+}
+
+
+/*  Cart Page CSS    */
+
+
+
+/* HadderTop */
+.nav-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center;
+  justify-content: center; */
+  width: 100%;
+  background-color: yellow;
+  height: 50px;
+  /* align-self: center; */
+}
+.cart-count{
+  position: absolute;
+  right: 19px;
+  top: 10px;
+  z-index: 1;
+  background-color: red;
+  padding: 4px;
+  width: 7px;
+  height: 19px;
+  border-radius: 50%;
+  color: #fff;
+}
+.add-to-cart img{
+  width: 40px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+.logo-img{
+  float: left;
+}
+
+.nav-margin{
+  display: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+
+
+
+/* HadderTop */
+
+
+
+/*     */
+/* TopHead css */
+* {
+  font-family: arial, helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.topHead {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+.topHead a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+/* MidHead css */
+
+.midHead {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px;
+}
+
+.midLogo {
+  width: 210px;
+  height: 68px;
+  padding: 15px;
+}
+
+.rightBox {
+  padding: 15px;
+  display: flex;
+  margin-left: auto;
+  gap: 3px;
+  align-items: center;
+}
+
+.cartIconBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 0px;
+}
+
+#cartIndicator {
+  margin-bottom: -50%;
+}
+
+.cartIcon {
+  filter: saturate(250%);
+  width: 35%;
+}
+
+.catHead {
+  font-size: 14px;
+  padding: 20px 0 10px 40px;
+}
+
+.categories {
+  text-decoration: none !important;
+  color: rgb(65, 62, 62) !important;
+  padding: 10px 1px 5px 0px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.categories:hover {
+  border-bottom: 1px solid black;
+}
+
+.popoverBox {
+  display: flex;
+  height: 600px;
+  border-radius: 0px !important;
+  box-shadow: 0px !important;
+}
+
+.catBox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 150px;
+}
+
+/* MidHead css */
+
+.product-Model{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.product-Model-colour{
+color: goldenrod;
+margin: 2px;
+
+}
+.btn-wrapper-cart {
+
+  margin-left: 5%;
+}
+
